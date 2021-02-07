@@ -1,0 +1,9 @@
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\bin\Debug\munReportDef.exe.config
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\bin\Debug\munReportDef.exe
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\bin\Debug\munReportDef.pdb
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\obj\Debug\munReportDef.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\obj\Debug\munReportDef.Properties.Resources.resources
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\obj\Debug\munReportDef.csproj.GenerateResource.cache
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\obj\Debug\munReportDef.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\obj\Debug\munReportDef.exe
+C:\Users\Alexander\source\repos\munReportDef\munReportDef\obj\Debug\munReportDef.pdb
