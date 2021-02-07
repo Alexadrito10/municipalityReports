@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace munReportDef
 {
@@ -91,8 +92,33 @@ namespace munReportDef
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            
 
             dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') LIKE '{1}*'", "Nombre Municipio", cbFilter.Text);
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+            ChartArea area = new ChartArea("T");
+            try
+            {
+                chart1.ChartAreas.Add(area);
+            
+
+            Series barSeries = new Series();
+            barSeries.Points.AddXY("Municipios", "200");
+            barSeries.Points.AddXY("Islas", "100");
+            barSeries.Points.AddXY("Areas no mun", "20");
+
+
+            //chart title  
+            chart1.Titles.Add("Tipos");
+            }
+            catch (Exception edsfdede)
+            {
+            }
+
 
         }
     }
